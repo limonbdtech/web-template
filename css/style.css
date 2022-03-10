@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header_section{
+     
+    padding: 80px 120px;
+    height:  600px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+
+.left h1{
+    font-size: 80px;
+    color: black;
+}
+
+.left h1 span{
+    font-size: 100px;
+    color: orangered;
+}
+
+.left p{
+
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.button_style{
+
+    background-color: orangered;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: wheat;
+    border:  none;
+    border-radius: 30px;
+    padding: 13px 50px;
+    margin-top: 40px;
+    
+}
+
+.right{
+    float: right;
+    width: 50%;
+}
+
+
+
+
+.logo{
+    width: 90%;
+    border-radius: 50%;
+}
+
+/* header section end here */
+
+/* breakfast section start here */
+
+.breakfast_section{
+    padding: 80px 120px;
+    background-color: #eee;
+    height:  660px;
+}
+.breakfast_container{
+    float: left;
+    width: 30%;
+}
+.breakfast_card{
+    
+    width: 350px;
+    height:  400px;
+    background-color: #fff;
+    margin: 50px 0 0 50px;
+    padding: 40px;
+
+    position: absolute;
+}
+
+.breakfast_card h2{
+    font-size: 35px;
+}
+
+.breakfast_card p {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: gray;
+}
+
+
+.breakfast_picture{
+float: right;
+width: 70%;
+}
+
+.breakfast_picture img{
+    width: 100%;
+    height: 500px;
+}
+
+.fastfood_section{
+    height: 100vh;
+    
+    background-image: url(../images/fastfood.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.fastfood_content{
+    padding: 200px 120px;
+}
+
+.fastfood_content p{
+    font-size: 24px;
+    font-weight: 700px;
+    letter-spacing: 2px;
+    color: blanchedalmond;
+}
+
+.fastfood_content h1{
+    font-size: 70px;
+}
+
+
+/* fastfood section end */
+
+
+/* -- delevari section start here --- */
+ 
+.delevari_section{
+    height: 100vh;
+    padding: 80px 120px;
+}
+
+.delevari_picture{
+    float: left;
+    width: 50%;
+}
+.delevari_picture img{
+    width: 90%;
+    border-radius: 50%;
+}
+
+.delevari_container{
+    float: right;
+    width: 45%;
+    background-color: #eee;
+}
+
+.delevari_card{
+    
+    padding: 80px;
+    
+}
+
+.delevari_card h2{
+    font-size: 35px;
+}
+
+.delevari_card p{
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: gray;
+    margin-top: 15px;
+}
+
+
+
+/* -- delevari section end here --- */
+
+
+/* --- footer section  start here--- */
+
+.footer_section{
+    height: 660px;
+    background-color: black;
+    padding: 80px 120px;
+    color: wheat;
+}
+
+.footer_section .footer_img{
+    float: left;
+    width: 40%;
+}
+.footer_section .footer_img  img{
+    width: 90%;
+    height: 500px;
+}
+
+.footer_content{
+    float: left;
+    text-align: center;
+    width: 60%;
+    padding: 80px;
+}
+
+
+.footer_title{
+    
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.text{
+    padding:20px;
+    width: 250px;
+    border-bottom: 1px solid #eee;
+    background: black;
+    border:none;
+}
+
+.footer_content button{
+    border-radius:0;
+}
+
+.address{
+    margin: 20px;
+}
+
+.address h3{
+    
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+
+}
+
+
+.address ul li{
+    font-size: 18px;
+    margin: 5px 0;
+    letter-spacing: 2px;
+    font-weight: 400;
+    list-style: none;
+}
+/* --- footer section  end here--- */
+
+
